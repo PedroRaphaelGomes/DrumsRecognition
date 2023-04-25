@@ -6,18 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/txtResultado"
-        android:layout_width="168dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="128dp"
-        android:text="TextView"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/btnTreino"
         android:layout_width="wrap_content"
@@ -40,12 +28,16 @@
         app:layout_constraintStart_toEndOf="@+id/btnTreino" />
 
     <TextView
-        android:id="@+id/txtSensores"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/txtDist"
+        android:layout_width="89dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="284dp"
         android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/txtResultado"
-        app:layout_constraintStart_toStartOf="@+id/txtResultado"
-        app:layout_constraintTop_toBottomOf="@+id/txtResultado"
-        />
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnTreino"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
